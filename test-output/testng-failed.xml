@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="Validate login-testCases  -chrome  browser(failed)">
+    <parameter name="browser.name" value="chrome"/>
+    <classes>
+      <class name="test.TC01UserLogin">
+        <methods>
+          <include name="inValied_user_login"/>
+          <include name="before"/>
+          <include name="teardown"/>
+          <include name="inValied_user_login3"/>
+          <include name="after"/>
+          <include name="inValied_user_login2"/>
+        </methods>
+      </class> <!-- test.TC01UserLogin -->
+    </classes>
+  </test> <!-- Validate login-testCases  -chrome  browser(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

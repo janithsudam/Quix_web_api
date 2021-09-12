@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--    <test verbose="2" preserve-order="true" name="E:/QUIX/New">-->
+    <!--        <classes/>-->
+    <!--    </test>-->
+
+    <test name="Validate user registration  -chrome  browser">
+        <parameter name="browser.name" value="chrome"/>
+        <classes>
+            <class name="test.TC02RegNewUser"></class>
+        </classes>
+    </test>
+    <test name="Validate user registration_admin  -chrome  browser">
+        <parameter name="browser.name" value="chrome"/>
+        <classes>
+            <class name="test.TC03RegNewUserAdmin"></class>
+        </classes>
+    </test>
+</suite>
