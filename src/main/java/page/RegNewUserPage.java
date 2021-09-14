@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class RegNewUserPage {
+public class RegNewUserPage extends BasePage {
 
     private WebDriver driver;
 
