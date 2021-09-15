@@ -1,12 +1,12 @@
 package test;
 
 import base.BaseTest;
-import page.HomePage;
-import page.RegNewUserPage;
-import page.UserPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import page.HomePage;
+import page.RegNewUserPage;
+import page.UserPage;
 
 public class TC02RegNewUser extends BaseTest {
     @BeforeMethod(description = "This method is to create, click on user menu on home page")

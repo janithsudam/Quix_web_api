@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Quix_web_api" />
         <module name="New" />
+        <module name="Quix_web_automation_original" />
       </profile>
     </annotationProcessing>
   </component>

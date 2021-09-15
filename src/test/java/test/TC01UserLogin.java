@@ -1,10 +1,10 @@
 package test;
 
 import base.BaseTest;
-import page.HomePage;
-import page.LoginPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import page.HomePage;
+import page.LoginPage;
 
 public class TC01UserLogin extends BaseTest {
     @Test(priority = '1', description = "This method is used to verify valid username and valied password login")

@@ -1,13 +1,13 @@
 package test;
 
 import base.BaseTest;
-import page.HomePage;
-import page.RegNewUserPage;
-import page.UserPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import page.HomePage;
+import page.RegNewUserPage;
+import page.UserPage;
 
 public class TC03RegNewUserAdmin extends BaseTest {
 

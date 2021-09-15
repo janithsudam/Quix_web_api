@@ -6,12 +6,9 @@
     <classes>
       <class name="test.TC01UserLogin">
         <methods>
-          <include name="inValied_user_login"/>
           <include name="before"/>
-          <include name="teardown"/>
-          <include name="inValied_user_login3"/>
           <include name="after"/>
-          <include name="inValied_user_login2"/>
+          <include name="inValiedUserLogin"/>
         </methods>
       </class> <!-- test.TC01UserLogin -->
     </classes>
