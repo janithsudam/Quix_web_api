@@ -10,6 +10,12 @@ import page.RegNewUserPage;
 import page.UserPage;
 
 public class TC03RegNewUserAdmin extends BaseTest {
+/*
+This testcase will login in https://qut.azurewebsites.net/
+verify login page title
+Login to applicaton
+Register new user by using Admin Priviladges
+ */
 
     @BeforeMethod(description = "This method is to create, click on user menu on home page")
     public void user_login() throws InterruptedException {

@@ -6,7 +6,16 @@ import org.testng.annotations.Test;
 import page.HomePage;
 import page.LoginPage;
 
+
+
 public class TC01UserLogin extends BaseTest {
+
+//    @BeforeMethod
+//    public void setup(){
+//        BaseTestP.getInstance().openBrowser();
+//        BaseTestP.getInstance().navigateToURL();
+//        registerPage = PageFactory.initElements(BaseTestP.getInstance().getDriver(), RegisterPage.class);
+//    }
     @Test(priority = '1', description = "This method is used to verify valid username and valied password login")
     public void ValiedUserLogin() throws InterruptedException {
         LoginPage login_obj = PageFactory.initElements(driver, LoginPage.class);

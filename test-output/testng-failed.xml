@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
-  <test thread-count="5" name="Validate login-testCases  -chrome  browser(failed)">
-    <parameter name="browser.name" value="chrome"/>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Quix_web_api(failed)">
     <classes>
-      <class name="test.TC01UserLogin">
+      <class name="test.TC04AddNewCustomer">
         <methods>
+          <include name="addNewRetailChain"/>
           <include name="before"/>
           <include name="after"/>
-          <include name="inValiedUserLogin"/>
+          <include name="addNewDistributor"/>
+          <include name="addNewImporter"/>
+          <include name="addNewRetailStore"/>
+          <include name="user_login"/>
         </methods>
-      </class> <!-- test.TC01UserLogin -->
+      </class> <!-- test.TC04AddNewCustomer -->
     </classes>
-  </test> <!-- Validate login-testCases  -chrome  browser(failed) -->
-</suite> <!-- Failed suite [All Test Suite] -->
+  </test> <!-- Quix_web_api(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

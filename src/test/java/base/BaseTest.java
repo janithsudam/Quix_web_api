@@ -31,6 +31,7 @@ public class BaseTest {
     }
     @AfterMethod
     public void after(){
+        driver.manage().deleteAllCookies();
         driver.quit();
     }
 }

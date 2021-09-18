@@ -53,7 +53,6 @@ public class RegNewUserPage extends BasePage {
             }
         }
     }
-
     public void setFirstname(String s) {
         FirstnameTxtBox.sendKeys(s);
     }
